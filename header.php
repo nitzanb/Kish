@@ -16,8 +16,10 @@
   
   <!-- Mobile viewport optimized: j.mp/bplateviewport -->
   <meta name="viewport" content="width=device-width,initial-scale=1">
-
-  <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
+   
+	<link rel="icon"       type="image/png"       href="<?bloginfo('template_directory');?>/favicon.ico">
+	<link rel="apple-touch-icon" href="<?bloginfo('template_directory');?>/apple-touch-icon.png" />
+	<link rel="apple-touch-icon-precomposed" href="<?bloginfo('template_directory');?>/apple-touch-icon-57x57-precomposed.png" />	
 
   <!-- CSS: implied media=all -->
   <!-- CSS concatenated and minified via ant build script-->
